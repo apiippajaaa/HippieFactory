@@ -17,34 +17,29 @@ export default function BecomeReseller() {
         >
           {/* title */}
           <h2 className="text-5xl font-black uppercase tracking-tight text-white sm:text-6xl lg:text-7xl">
-            become reseller
+            jadi reseller
           </h2>
 
           {/* accent line */}
-          <div className="mt-8 h-px w-40 bg-gradient-to-r from-transparent via-cyan-400/60 to-transparent" />
+          <div className="mt-8 h-px w-40 bg-linear-to-r from-transparent via-cyan-400/60 to-transparent" />
 
           {/* description */}
           <p className="mt-8 max-w-2xl text-lg leading-8 text-white/50 sm:text-xl">
-            Join our reseller program and start building your own vape business
-            with premium handcrafted coils.
+            Mulai bisnis vape kamu bersama Hippie Factory dengan produk coil
+            handmade berkualitas dan performa terbaik.
           </p>
 
           {/* button */}
           <Link
-            href="/become-creator"
-            className="
-              group relative mt-14 inline-flex items-center gap-4
-              text-base font-medium uppercase tracking-[0.3em]
-              text-white/80 transition duration-300
-              hover:text-cyan-200
-            "
+            href="/become-reseller"
+            className="group relative mt-14 inline-flex items-center gap-4 text-base font-medium uppercase tracking-[0.3em] text-white/80 transition duration-300 hover:text-cyan-200"
           >
-            <span>Apply Now</span>
+            <span>Gabung Sekarang</span>
 
             <ArrowRight className="h-5 w-5 transition duration-300 group-hover:translate-x-1" />
 
             {/* underline effect */}
-            <span className="absolute -bottom-3 left-0 h-px w-full scale-x-0 bg-gradient-to-r from-cyan-400 to-fuchsia-400 transition duration-500 group-hover:scale-x-100" />
+            <span className="absolute -bottom-3 left-0 h-px w-full scale-x-0 bg-linear-to-r from-cyan-400 to-fuchsia-400 transition duration-500 group-hover:scale-x-100" />
           </Link>
         </motion.div>
       </div>

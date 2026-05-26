@@ -16,10 +16,6 @@ const slides = [
     id: 2,
     image: "/images/home/2.webp",
   },
-  {
-    id: 3,
-    image: "/images/home/3.webp",
-  },
 ];
 
 export default function Hero() {
@@ -50,7 +46,7 @@ export default function Hero() {
                 className="object-cover"
               />
 
-              <div className="absolute inset-0 bg-gradient-to-t from-[#050816]/70 via-[#050816]/20 to-transparent" />
+              <div className="absolute inset-0 bg-linear-to-t from-[#050816]/70 via-[#050816]/20 to-transparent" />
             </div>
           ))}
 
@@ -72,7 +68,7 @@ export default function Hero() {
             <div className="flex flex-wrap items-center justify-center gap-4">
               <Link
                 href="/product"
-                className="group flex items-center gap-2 rounded-full bg-cyan-300 px-6 py-3 font-semibold text-black transition duration-300 hover:scale-105"
+                className="group flex items-center gap-2 rounded-full bg-blue-500 px-6 py-3 font-semibold text-white transition duration-300 hover:scale-105"
               >
                 Explore Products
                 <ArrowRight
@@ -96,7 +92,7 @@ export default function Hero() {
                   onClick={() => goTo(index)}
                   className={`rounded-full transition-all duration-300 ${
                     current === index
-                      ? "h-2 w-10 bg-cyan-300"
+                      ? "h-2 w-10 bg-blue-500"
                       : "h-2 w-2 bg-white/40"
                   }`}
                 />

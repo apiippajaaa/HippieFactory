@@ -74,17 +74,7 @@ export default function ProductGallery({ images, alt }: Props) {
 
           <button
             onClick={next}
-            className="
-              absolute right-5 top-1/2 z-20
-              flex h-11 w-11 -translate-y-1/2
-              items-center justify-center
-              rounded-full
-              border border-white/10
-              bg-black/40
-              backdrop-blur-xl
-              transition duration-300
-              hover:bg-black/60
-            "
+            className="absolute right-5 top-1/2 z-20 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full border border-white/10 bg-black/40 backdrop-blur-xl transition duration-300 hover:bg-black/60"
           >
             <ChevronRight className="h-5 w-5 text-white/70" />
           </button>

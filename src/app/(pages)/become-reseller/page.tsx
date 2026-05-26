@@ -7,19 +7,19 @@ import { ArrowRight, Boxes, Flame, ShieldCheck, Wallet } from "lucide-react";
 const benefits = [
   {
     icon: Wallet,
-    title: "Competitive Margin",
+    title: "Margin Menarik",
   },
   {
     icon: Boxes,
-    title: "Premium Products",
+    title: "Produk Berkualitas",
   },
   {
     icon: Flame,
-    title: "Exclusive Drops",
+    title: "Rilis Produk Eksklusif",
   },
   {
     icon: ShieldCheck,
-    title: "Trusted Brand",
+    title: "Brand Terpercaya",
   },
 ];
 
@@ -29,7 +29,7 @@ export default function BecomeResellerPage() {
 
   return (
     <main className="relative min-h-screen overflow-hidden text-white">
-      <section className="relative mx-auto flex min-h-screen max-w-7xl items-center px-6 py-24">
+      <section className="relative mx-auto flex min-h-screen max-w-7xl items-center px-6 py-6">
         <div className="grid items-center gap-20 lg:grid-cols-2">
           {/* LEFT */}
           <motion.div
@@ -38,19 +38,19 @@ export default function BecomeResellerPage() {
             transition={{ duration: 0.6 }}
           >
             <span className="text-xs uppercase tracking-[0.35em] text-white/40">
-              Reseller Program
+              Program Reseller
             </span>
 
-            <h1 className="mt-6 text-4xl font-black uppercase  text-white sm:text-6xl lg:text-6xl">
-              build your
+            <h1 className="mt-6 text-4xl font-black uppercase text-white sm:text-6xl lg:text-6xl">
+              mulai gabung
               <span className="block text-7xl text-yellow-400">
-                vape empire
+                bersama kami
               </span>
             </h1>
 
             <p className="mt-8 max-w-xl text-base leading-8 text-white/45 sm:text-lg">
-              Join Hippie Factory reseller network and scale your vape business
-              with premium handcrafted coils and exclusive product access.
+              Gabung menjadi reseller Hippie Factory dan jual coil handmade
+              dengan kualitas terbaik untuk daily vaping.
             </p>
 
             <div className="mt-12">
@@ -68,7 +68,7 @@ export default function BecomeResellerPage() {
                   hover:bg-white/[0.06]
                 "
               >
-                Apply Now
+                Gabung Sekarang
                 <ArrowRight className="h-4 w-4 transition duration-300 group-hover:translate-x-1" />
               </Link>
             </div>

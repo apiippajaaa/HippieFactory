@@ -25,13 +25,17 @@ export default function Product() {
             </span>
 
             <h2 className="mt-6 text-4xl font-black uppercase leading-[0.9] tracking-tight text-white sm:text-5xl md:text-6xl">
-              PRODUCT
+              PRODUK
             </h2>
           </motion.div>
         </div>
-        <div className="grid gap-8 md:grid-cols-4">
+
+        {/* product grid */}
+        <div className="flex flex-wrap justify-center gap-6">
           {products.map((product) => (
-            <ProductCard key={product.id} product={product} />
+            <div key={product.id} className="w-full max-w-70 sm:w-70">
+              <ProductCard product={product} />
+            </div>
           ))}
         </div>
       </Container>

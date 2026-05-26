@@ -5,21 +5,20 @@ import { Cloud, Flame, Zap } from "lucide-react";
 
 const experiences = [
   {
-    title: "Dense Clouds",
+    title: "Uap Lebih Padat",
     description:
-      "Massive vapor production with smooth airflow balance for thicker and more satisfying clouds.",
+      "Asap lebih tebal dengan airflow yang tetap nyaman untuk dipakai harian.",
     icon: Cloud,
   },
   {
-    title: "Crisp Flavor",
+    title: "Rasa Lebih Keluar",
     description:
-      "Cleaner flavor delivery that brings out deeper notes from every liquid profile.",
+      "Bikin rasa liquid lebih terasa dan tetap clean di setiap tarikan.",
     icon: Flame,
   },
   {
-    title: "Instant Ramp-Up",
-    description:
-      "Ultra-fast heating response for immediate firing and consistent power output.",
+    title: "Ramp-Up Cepat",
+    description: "Respon firing lebih cepat dan stabil saat digunakan.",
     icon: Zap,
   },
 ];
@@ -38,20 +37,17 @@ export default function FlavorExperience() {
         >
           <span className="mb-5 inline-flex items-center gap-3 text-[10px] uppercase tracking-[0.35em] text-cyan-300/70 sm:text-xs">
             <div className="h-px w-8 bg-cyan-400/40" />
-            Flavor Experience
+            Hippie Factory
             <div className="h-px w-8 bg-cyan-400/40" />
           </span>
 
           <h2 className="text-4xl font-black uppercase leading-[0.95] tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
-            engineered for
-            <span className="block bg-gradient-to-r from-cyan-300 via-blue-400 to-fuchsia-400 bg-clip-text text-transparent">
-              flavor hunters
-            </span>
+            Dibuat Sepenuh Hati
           </h2>
 
           <p className="mx-auto mt-6 max-w-2xl text-sm leading-7 text-white/45 sm:text-base">
-            Every coil is crafted to push deeper flavor clarity, smoother vapor
-            production, and faster performance in every session.
+            Coil handmade dengan fokus pada rasa, asap, dan performa yang stabil
+            untuk daily vaping.
           </p>
         </motion.div>
 
@@ -107,10 +103,6 @@ export default function FlavorExperience() {
                   {/* bottom accent */}
                   <div className="mt-8 flex items-center gap-3">
                     <div className="h-px flex-1 bg-gradient-to-r from-cyan-400/40 to-transparent" />
-
-                    <span className="text-[10px] uppercase tracking-[0.35em] text-cyan-200/40">
-                      HFX
-                    </span>
                   </div>
                 </div>
               </motion.div>

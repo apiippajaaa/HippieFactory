@@ -57,18 +57,18 @@ export default function Contact() {
             <div className="h-px w-16 bg-white/10" />
 
             <span className="text-xs uppercase tracking-[0.4em] text-white/35">
-              CONTACT US
+              HIPPIE FACTORY
             </span>
 
             <div className="h-px w-16 bg-white/10" />
           </div>
 
           <h1 className="text-5xl font-black leading-none md:text-8xl">
-            Let&apos;s Connect!
+            HUBUNGI KAMI
           </h1>
 
           <p className="mx-auto mt-6 max-w-md text-sm leading-relaxed text-white/45">
-            Open for collaborations, partnerships, and creative projects.
+            Terbuka untuk reseller, kolaborasi, dan kebutuhan lainnya.
           </p>
         </div>
 

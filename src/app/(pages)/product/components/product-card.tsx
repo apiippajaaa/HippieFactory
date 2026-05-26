@@ -38,15 +38,7 @@ export default function ProductCard({ product }: Props) {
           <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-transparent to-black/70" />
 
           {/* badge */}
-          <div
-            className="
-              absolute right-5 top-5
-              rounded-full border border-white/10
-              bg-black/40
-              px-4 py-2
-              backdrop-blur-xl
-            "
-          >
+          <div className="absolute right-5 top-5 rounded-full border border-white/10 bg-black/40 px-4 py-2 backdrop-blur-xl">
             <span className="text-[10px] uppercase tracking-[0.35em] text-white/70">
               {type}
             </span>
@@ -63,14 +55,7 @@ export default function ProductCard({ product }: Props) {
                 {product.resistance}
               </p>
 
-              <span
-                className="
-                  whitespace-nowrap
-                  text-sm font-medium
-                  uppercase tracking-[0.18em]
-                  text-white/70
-                "
-              >
+              <span className="whitespace-nowrap text-sm font-medium uppercase tracking-[0.18em] text-white/70">
                 {product.price}
               </span>
             </div>
